@@ -160,5 +160,30 @@ body {
 .cont__botao:hover{
     background-color: #a81c1c;
     color: #00030c;
-
+}
+@media screen and (max-width: 768px) {
+    .conteiner{
+        display: block;
+        background-image: none;
+    }
+    .cont__imagem{
+        width: 50vw;
+    }
+    .cont__caixa{
+        margin: 1em 1em;
+        
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .sec__img{
+        width: 50vw;
+    }
+    .dispositivos__lista{
+        display: block;
+    }
+    .rodape__lista{
+        display: block;
+    }
 }
